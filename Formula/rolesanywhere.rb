@@ -1,4 +1,4 @@
-class RolesAnywhere < Formula
+class Rolesanywhere < Formula
   desc "AWS Roles Anywhere credentials helper"
   homepage "https://docs.aws.amazon.com/rolesanywhere/latest/userguide/credential-helper.html"
   url "https://github.com/aws/rolesanywhere-credential-helper/archive/v1.0.5.zip"
