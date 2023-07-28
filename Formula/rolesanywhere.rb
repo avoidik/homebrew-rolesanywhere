@@ -14,7 +14,8 @@ class Rolesanywhere < Formula
       -X github.com/aws/rolesanywhere-credential-helper/cmd.Version=#{version}
       -linkmode=external
     ]
-    system "go", "build", "-buildmode=pie", *std_go_args(ldflags: ldflags)
+    system "go", "build", "-buildmode=pie", *std_go_args(ldflags: ldflags), "main.go"
+    mv bin/"rolesanywhere", bin/"aws_signing_helper"
   end
 
   test do
