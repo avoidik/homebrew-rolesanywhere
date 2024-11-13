@@ -1,7 +1,7 @@
 class Rolesanywhere < Formula
   desc "AWS Roles Anywhere credentials helper"
   homepage "https://docs.aws.amazon.com/rolesanywhere/latest/userguide/credential-helper.html"
-  url "https://github.com/aws/rolesanywhere-credential-helper.git", tag: "v1.1.1", revision: "a2bd650acd709257a1e696ef4142df268bdcf046"
+  url "https://github.com/aws/rolesanywhere-credential-helper.git", tag: "v1.2.1", revision: "92d00d48aec4e08bc7002a1abeff67d66c2db293"
   license "Apache-2.0"
   head "https://github.com/aws/rolesanywhere-credential-helper.git", branch: "main"
 
